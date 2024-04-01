@@ -210,6 +210,21 @@ nav ul li {
 }
 
 @media (max-width: 400px) {
+  .hidden-mobile {
+    position: absolute;
+    left: -1000px;
+    height: 25px;
+    background-color: white;
+    opacity: 0;
+  }
+
+  .hidden-mobile:focus {
+      left: 1%;
+      opacity: 1;
+      position: fixed;
+      top: 10px;
+  }
+  
   .link-allstyles {
     margin-left: 6rem;
   }
